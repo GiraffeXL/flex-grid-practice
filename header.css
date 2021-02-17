@@ -1,0 +1,22 @@
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: tomato;
+    justify-content: space-between;
+}
+.flex-item-left {
+    padding: 20px;
+    background-color: tomato;
+}
+.flex-item-right {
+    padding: 20px;
+    background-color: tomato;
+}
+.item {
+    padding: 20px;
+    margin: 20px;
+    background-color: tomato;
+    text-decoration: none;
+    color: black;
+}
+/*how can i move only the flex-item-right items to the right side*/
