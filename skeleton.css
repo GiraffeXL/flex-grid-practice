@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+}
+/* in order to get rid of the white border around the page contents i just added the styling above*/
+.container {
+    display: flex;
+    flex-flow: wrap;
+    background-color:;
+}
+.header {
+    display: flex;
+    align-items:flex-start;
+    padding: 30px;
+    background-color: white;
+    border-width: 50px;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    /* this seems to be unncessary when it comes to centering the text in the div "text-align: center;" */
+}
+.header a {
+    padding: 10px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+#logbuttn {
+    background-color: #1a73e8;
+    border-radius: 5px;
+    color: white;
+}
+.content {
+    height: 467px;
+    width: 100%;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+}
+/* in order to get the logo, search bar, buttons to center in the div I removed the display: flex from the content class and set text-align to center*/
+img {
+    width: auto;
+    height: auto;
+  }
+input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+}
+button {
+    width: 142px;
+    height: 36px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: whitesmoke;
+}
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 70px;
+    width:  100%;
+    padding: 30px;
+    background-color: #f6f6f6;
+}
+.footer a {
+    padding: 10px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+/*there is still white space below the footer. I think i need to push the footer to the bottom of the page or find a way to make the whole thing tak eup the length of the page*/
