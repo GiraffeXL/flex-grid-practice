@@ -39,7 +39,7 @@ p {
 .form {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     height: 400px;
     width: 800px;
@@ -48,14 +48,42 @@ p {
     border: 20px solid white;
     border-radius: 50px;
 }
+h1 {
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+h2 {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #91D56B;
+}
+h3 {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
 input {
     height: 35px;
     width: 250px;
     align-self: center;
+}
+button {
+    height: 40px;
+    Width: 80px;
+    background-color: red;
 }
 .footer {
     display: flex;
     background-color: #FFFDD0;
     width: auto;
     height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.footer a {
+    color: rgb(77, 72, 72);
 }
