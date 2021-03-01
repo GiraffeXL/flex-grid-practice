@@ -1,6 +1,7 @@
 body {
     margin: 70px 630px;
 }
+/* I had to add the margin above to center the form because i didn't create a background div set to display flex and justify content center*/
 .container {
     display: flex;
     flex-direction: column;

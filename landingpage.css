@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-grow: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #91D56B;
+    color: #F8FAED;
+    width: auto;
+        /* im guessing that setting the width to one is like setting it to auto which means that it will take the length of the browser (it is)*/
+    height: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+        /*you may have to add extra padding to the right after I add margin to the links since the right side LOGO is text*/
+}
+a {
+    margin: 20px;
+    text-decoration: none;
+    color: #F8FAED;
+    font-weight: bold;
+    font-size: 20px;
+}
+p {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFDD0;
+    width: auto;
+    height: 600px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 400px;
+    width: 800px;
+    background-color: #F2F6D9;
+    padding: 50px;
+    border: 20px solid white;
+    border-radius: 50px;
+}
+input {
+    height: 35px;
+    width: 250px;
+    align-self: center;
+}
+.footer {
+    display: flex;
+    background-color: #FFFDD0;
+    width: auto;
+    height: 100px;
+}
