@@ -68,11 +68,21 @@ input {
     height: 35px;
     width: 250px;
     align-self: center;
+    border-radius: 10px;
 }
 button {
     height: 40px;
     Width: 80px;
     background-color: red;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.info {
+    background-color: #91D56B;
+    padding: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
 }
 .footer {
     display: flex;
